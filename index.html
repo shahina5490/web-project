@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-left">
+                <div id="sidebar" class="sidebar">
+                    <button class="close-btn" onclick="toggleSidebar()">✖</button>
+                    <h3>Courses</h3>
+                    <ul>
+                        <ul>
+                            <li><a href="java.html">Java</a></li>
+                            <li><a href="python.html">Python</a></li>
+                            <li><a href="csharp.html">C#</a></li>
+                            <li><a href="javascript_php.html">JavaScript/PHP</a></li>
+                            <li><a href="html_css.html">HTML/CSS</a></li>
+                            <li><a href="mongodb.html">MongoDB</a></li>
+                        </ul>
+                        
+                    </ul>
+                </div>
+                
+                <!-- Modify Courses Button to Open Sidebar -->
+                <h2 class="courses-btn" onclick="toggleSidebar()">Courses</h2>
+            </div>
+            <div class="nav-right">
+                <div class="auth-links">
+                    <a href="#">Signup</a> | <a href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <h1>Welcome to Learning Portal</h1>
+        <h2>About Learning Portal</h2>
+        <p>Providing quality education through interactive courses. 
+           An online platform or website that serves as a central hub for organizing 
+           and delivering learning content and resources.Various learning materials, such as courses, videos, 
+           assessments, and other interactive content.</p>
+    </section>
+    
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <input type="text" placeholder=" 🔍 Search for a course..." class="search-bar">
+        <div class="course-grid">
+            <div class="course-grid">
+                <a href="python.html" class="course">Python</a>
+                <a href="java.html" class="course">Java</a>
+                <a href="csharp.html" class="course">C#</a>
+                <a href="html_css.html" class="course">HTML/CSS</a>
+                <a href="javascript_php.html" class="course">JavaScript/PHP</a>
+                <a href="mongodb.html" class="course">MongoDB</a>
+            </div>
+            
+        </div>
+        
+        
+    </section>
+    
+    <section id="info-contact">
+        <div class="info">
+            <h3>Contact Us</h3>
+            <p>📞 +221 218 678</p>
+            <p>📧 learning@gmail.com</p>
+        </div>
+        <div class="contact">
+            <h3>Social Media</h3>
+            <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+            <p><i class="fa-brands fa-instagram"></i> Instagram</p>
+            <p><i class="fa-brands fa-youtube"></i> YouTube</p>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 - All rights reserved - Designed and Hosted by Our Team</p>
+    </footer>
+</body>
+</html>

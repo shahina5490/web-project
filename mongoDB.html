@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Course</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MongoDB Course</h1>
+    </header>
+        <div class="buttons">
+           <button onclick="showSection('videos')">Watch Videos</button>
+           <button onclick="showSection('quiz')">Take Quiz</button>
+           <button onclick="showSection('doubt')">Ask a Doubt</button>
+        </div>
+    <section  id="videos">
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ExcRbA7fy_A" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-56x56UppqQ" allowfullscreen></iframe>
+
+    </section>
+    <section id="quiz" style="display: none;">
+        <h2>Quiz</h2>
+        <p>1.What is the correct extension for Python files?</p>
+        <li><button onclick="alert('Correct!')">.py</button></li><br>
+        <li><button onclick="alert('Try again!')">.p</button></li><br>
+        <li><button onclick="alert('Try again!')">.pyth</button></li><br>
+        <li><button onclick="alert('Try again!')">.python</button></li><br>
+
+
+        <p>2.How do you output "Hello, World!" in Python?</p>
+        <li><button onclick="alert('Correct!')">print("Hello, World!")</button></li><br>
+        <li><button onclick="alert('Try again!')">echo "Hello, world!"</button></li><br>
+        <li><button onclick="alert('Try again!')">printf("Hello, world!")</button></li><br>
+        <li><button onclick="alert('Try again!')">cout << "Hello, world!</button></li><br>
+
+        <p>3.Which data type is immutable in Python?</p>
+        <li><button onclick="alert('Try again!')">List</button></li><br>
+        <li><button onclick="alert('Try again!')">Dictionary</button></li><br>
+        <li><button onclick="alert('Correct!')">Tuple</button></li><br>
+        <li><button onclick="alert('Try again!')">Set</button></li><br>
+
+
+        <p>4.How do you define a function in Python?</p>
+        <li><button onclick="alert('Try again!')">function myFunc():</button></li><br>
+        <li><button onclick="alert('Correct!')">def myFunc()</button></li><br>
+        <li><button onclick="alert('Try again!')">define myFunc():</button></li><br>
+        <li><button onclick="alert('Try again!')">func myFunc():</button></li><br>
+
+
+        <p>5.What is the correct syntax to create an object of a class named Car?</p>
+        <li><button onclick="alert('Correct!')">Car = new Car()</button></li><br>
+        <li><button onclick="alert('Try again!')">Car carObj</button></li><br>
+        <li><button onclick="alert('Try again!')">carObj = Car()</button></li><br>
+        <li><button onclick="alert('Try again!')">Car carObj = new Car()</button></li><br>
+    </section>
+        <h2>THANK YOU FOR ATTEMPTING</h2>
+    <section  id="doubt" style="display: none;">
+        <h2>Doubt Section</h2>
+        <textarea placeholder="Ask your doubt here..."></textarea>
+        <button>Submit</button>
+    </section>
+</body>
+</html>

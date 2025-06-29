@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Course</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Java Course</h1>
+    </header>
+        <div class="buttons">
+           <button onclick="showSection('videos')">Watch Videos</button>
+           <button onclick="showSection('quiz')">Take Quiz</button>
+           <button onclick="showSection('doubt')">Ask a Doubt</button>
+        </div>
+    <section  id="videos">
+        <h2>Videos</h2>
+        <iframe width="260" height="115" src="https://www.youtube.com/embed/bSrm9RXwbBaI" allowfullscreen></iframe>
+        <iframe width="260" height="115" src="https://www.youtube.com/embed/UmnCZ7-9yDY" allowfullscreen></iframe>
+    </section>
+    <section id="quiz" style="display: none;">
+        <h2>Quiz</h2>
+        <p>1.What is the default value of an int variable in Java?</p>
+        <li><button onclick="alert('Correct!')">0</button></li><br>
+        <li><button onclick="alert('Try again!')">null</button></li><br>
+        <li><button onclick="alert('Try again!')">undefined</button></li><br>
+        <li><button onclick="alert('Try again!')">1</button></li><br>
+
+
+        <p>2.Which of the following is NOT a Java keyword?</p>
+        <li><button onclick="alert('Correct!')">include</button></li><br>
+        <li><button onclick="alert('Try again!')">static</button></li><br>
+        <li><button onclick="alert('Try again!')">synchronised</button></li><br>
+        <li><button onclick="alert('Try again!')">transient</button></li><br>
+
+        <p>3.Which method is used to start a Java program?</p>
+        <li><button onclick="alert('Try again!')">start()</button></li><br>
+        <li><button onclick="alert('Try again!')">run()</button></li><br>
+        <li><button onclick="alert('Correct!')">main()</button></li><br>
+        <li><button onclick="alert('Try again!')">begin()</button></li><br>
+
+
+        <p>4.What is the size of a char in Java?</p>
+        <li><button onclick="alert('Try again!')">1 byte</button></li><br>
+        <li><button onclick="alert('Correct!')">2 byte</button></li><br>
+        <li><button onclick="alert('Try again!')">4 byte</button></li><br>
+        <li><button onclick="alert('Try again!')">8 byte</button></li><br>
+
+
+        <p>5.Which operator is used to compare two values in Java?</p>
+        <li><button onclick="alert('Correct!')">==</button></li><br>
+        <li><button onclick="alert('Try again!')">=</button></li><br>
+        <li><button onclick="alert('Try again!')">===</button></li><br>
+        <li><button onclick="alert('Try again!')">!=</button></li><br>
+        <h2>THANK YOU FOR ATTEMPTING</h2>
+    </section>
+    <section  id="doubt" style="display: none;">
+        <h2>Doubt Section</h2>
+        <textarea placeholder="Ask your doubt here..."></textarea>
+        <button>Submit</button>
+    </section>
+</body>
+</html>
